@@ -8,8 +8,7 @@ A modern AI-powered cybersecurity platform built to protect individuals and busi
 
 ## 🌐 Live Demo
 
-> Coming Soon
-
+[Vuew Live Website..](https://netra-secure.vercel.app/)
 ---
 
 
@@ -50,13 +49,13 @@ Built for everyone — from individuals to enterprise teams — with a clean, mo
 ```
 NetraSecure-AI/
 │
-├── frontend/                   # React Vite App
+├── client/                   # React Vite App
 │   ├── public/
 │   │   ├── platform.jpg
 │   │   ├── desktop_view.png
 │   │   ├── mobile_view.png
 │   │   ├── cyber_img.jpg
-│   │   └── ai_img.png
+│   │   └── chatbot.png
 │   │
 │   ├── src/
 │   │   ├── components/
@@ -84,7 +83,7 @@ NetraSecure-AI/
 │   ├── vite.config.js
 │   └── package.json
 │
-├── backend/                    # Node + Express API
+├── server/                    # Node + Express API
 │   ├── src/
 │   │   ├── controllers/
 │   │   │   ├── contactController.js
@@ -97,7 +96,7 @@ NetraSecure-AI/
 │   │       └── scanRoute.js
 │   │
 │   ├── contacts.json
-│   ├── server.js
+│   ├── app.js
 │   ├── .env
 │   └── package.json
 │
@@ -142,20 +141,12 @@ cd backend
 # 2. Install dependencies
 npm install
 
-# 3. Create .env file
-touch .env
-```
-
-Add this to `.env`:
-```env
-PORT=5000
-```
 
 ```bash
-# 4. Create contacts.json (empty array)
+# 3. Create contacts.json (empty array)
 echo "[]" > contacts.json
 
-# 5. Start server
+# 4. Start server
 node server.js
 ```
 
@@ -169,7 +160,7 @@ Backend runs on → `http://localhost:5000`
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/contact` | Submit contact form |
-| `GET` | `/contact` | Get all contacts |
+
 
 **Request Body:**
 ```json
@@ -307,14 +298,6 @@ Backend runs on → `http://localhost:5000`
 - [ ] Deploy frontend on Vercel
 - [ ] Deploy backend on Render
 
----
-
-## 👨‍💻 Author
-
-**AnantNetra Technologies**
-- 🌐 Website: Coming Soon
-- 📧 Email: support@netrasecure.ai
-- 📞 Phone: +91 (7200) 479501
 
 ---
 
@@ -323,5 +306,3 @@ Backend runs on → `http://localhost:5000`
 This project is licensed under the **MIT License**.
 
 ---
-
-> © 2025 NetraSecure AI by AnantNetra Technologies. All rights reserved.
