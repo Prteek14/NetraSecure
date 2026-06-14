@@ -292,11 +292,8 @@ Backend runs on → `http://localhost:5000`
 
 - [ ] MongoDB integration for real data storage
 - [ ] Real URL scanning via VirusTotal API
-- [ ] User authentication (Login / Signup)
-- [ ] Admin dashboard to view contacts
-- [ ] Email notifications via Nodemailer
-- [ ] Deploy frontend on Vercel
-- [ ] Deploy backend on Render
+- [ ] Email notifications via EmailJs
+
 
 
 ---
