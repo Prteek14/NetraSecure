@@ -8,7 +8,7 @@ A modern AI-powered cybersecurity platform built to protect individuals and busi
 
 ## 🌐 Live Demo
 
-[Vuew Live Website..](https://netra-secure.vercel.app/)
+[View Live Website](https://netra-secure.vercel.app/)
 ---
 
 
