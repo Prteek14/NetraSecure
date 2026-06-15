@@ -106,7 +106,7 @@ function URLScanner() {
       }
     } catch {
       setLoading(false);
-      setError("Server se connect nahi ho pa raha. Please try again.");
+      setError("Internal Server Error. Please try again.");
     }
   };
 
